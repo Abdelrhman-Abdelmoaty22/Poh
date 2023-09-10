@@ -139,10 +139,16 @@ img {
 .welcome-section > p {
   font-size: 3rem;
   font-weight: 200;
-  color: var(--main-red);
-  margin: 1.5em 0;
+  .welcome-section > p {
+  font-size: 3rem;
+  font-weight: 200;
+  color: var(--main-white);
   text-align: center;
-  line-height: 1.6;
+  /*justify-content: center;*/
+  margin-right: 50px;
+  display: flex;
+  margin-top: 50px;
+}
 }
 
 /* Projects section */

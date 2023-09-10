@@ -139,16 +139,12 @@ img {
 .welcome-section > p {
   font-size: 3rem;
   font-weight: 200;
-  .welcome-section > p {
-  font-size: 3rem;
-  font-weight: 200;
   color: var(--main-white);
   text-align: center;
   /*justify-content: center;*/
   margin-right: 50px;
   display: flex;
   margin-top: 50px;
-}
 }
 
 /* Projects section */
@@ -157,6 +153,7 @@ img {
   text-align: center;
   padding: 10rem 2rem;
   background: var(--main-blue);
+  transition: transform 0.3s ease-out;
 }
 
 .projects-section-header {
@@ -180,6 +177,7 @@ img {
   max-width: 1280px;
   margin: 0 auto;
   margin-bottom: 6rem;
+  transition: all 0.3s ease-in;
 }
 
 @media (max-width: 30.625em) {
